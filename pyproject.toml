@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "shifter-env"
+version = "0.1.0"
+description = ""
+authors = ["PilotSoul"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.31"
+fastapi = "^0.111.1"
+uvicorn = "^0.30.3"
+alembic = "^1.13.2"
+mysql-connector-python = "^9.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
